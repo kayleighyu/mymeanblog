@@ -18,6 +18,6 @@
                   $scope.newUser.password = '';
                 });
     }
-
+    
   }
 }());
