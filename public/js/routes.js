@@ -22,7 +22,7 @@
         controller: 'PostController',
         templateUrl: 'html/views/create.html'
       })
-      .when('/edit', {
+      .when('/edit/:postId', {
         controller: 'PostController', //same controller as create
         templateUrl: 'html/views/edit.html'
       })
